@@ -1,0 +1,586 @@
+<!DOCTYPE html>
+<html lang="ru">
+    <head>
+        <title>Zdravmedtech</title>
+        <meta http-equiv="Content-type" content="text/html;charset=UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+        <meta name="format-detection" content="telephone=no">
+        <link rel="stylesheet" href="css/style.css">
+        <link type="image/x-icon" href="img/favicon.ico" rel="shortcut icon">
+        <link type="Image/x-icon" href="img/favicon.ico" rel="icon">
+    </head>
+    <body>
+        <div class="wrapper">
+            <div class="up-btn">
+                <svg width="8" height="14" viewBox="0 0 8 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M1 13L7 7L0.999999 1" stroke="inherit" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                    </svg>
+            </div>
+            <header class="header">
+                <div class="header__main-row main-row">
+                    <div class="container">
+                        <div class="main-row__body">
+                            <div class="main-row__logo-group">
+                                <div class="main-row__logo">
+                                    <a href="/index.html">
+                                        <img src="img/logo.svg" alt="logo" class="main-row__logo-img">
+                                    </a>
+                                </div>  
+                                <div class="main-row__lang">
+                                    <span class="main-row__lang-item main-row__lang-item_active text text_service">RU</span>
+                                    <span class="main-row__lang-item text text_service">EN</span>
+                                </div>
+                            </div>
+                            <div class="main-row__contacts">
+                                <a href="#" class="main-row__mail text text_service">
+                                    info@zmt-nsk.ru
+                                </a>
+                                <a href="#"  class="main-row__phone text text_service">+7 (383) 209-22-30</a>
+                            </div>
+                            <div class="main-row__mobile-btns">
+                                <div class="main-row__catalog-btn">
+                                    <svg class="main-row__catalog-icon" width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" clip-rule="evenodd" d="M2.54 0h3.38a2.55 2.55 0 0 1 2.54 2.56v3.41a2.54 2.54 0 0 1-2.54 2.56H2.54A2.55 2.55 0 0 1 0 5.97v-3.4A2.55 2.55 0 0 1 2.54 0Zm0 11.47h3.38a2.54 2.54 0 0 1 2.54 2.56v3.41A2.55 2.55 0 0 1 5.92 20H2.54A2.55 2.55 0 0 1 0 17.44v-3.4a2.55 2.55 0 0 1 2.54-2.57ZM17.46 0h-3.38a2.55 2.55 0 0 0-2.54 2.56v3.41a2.54 2.54 0 0 0 2.54 2.56h3.38c1.4 0 2.54-1.14 2.54-2.56v-3.4A2.55 2.55 0 0 0 17.46 0Zm-3.38 11.47h3.38c1.4 0 2.54 1.14 2.54 2.56v3.41A2.55 2.55 0 0 1 17.46 20h-3.38a2.55 2.55 0 0 1-2.54-2.56v-3.4a2.54 2.54 0 0 1 2.54-2.57Z" fill="#005ED2"/>
+                                    </svg>
+                                    <span>Каталог</span>
+                                </div>
+                                <div class="main-row__menu-btn">
+                                    <svg class="main-row__menu-icon" width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M0 2C0 .9.9 0 2 0h16a2 2 0 1 1 0 4H2a2 2 0 0 1-2-2ZM0 18c0-1.1.9-2 2-2h16a2 2 0 1 1 0 4H2a2 2 0 0 1-2-2ZM0 10c0-1.1.9-2 2-2h16a2 2 0 1 1 0 4H2a2 2 0 0 1-2-2Z" fill="#005ED2"/>
+                                    </svg>
+                                    <span>Меню</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <nav class="header__menu-row menu-row">
+                    <div class="container">
+                        <div class="menu-row__body">
+                            <div class="menu-row__nav-row">
+                                <div class="menu-row__catalog-btn">
+                                    <svg class="menu-row__catalog-icon" width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" clip-rule="evenodd" d="M2.54 0h3.38a2.55 2.55 0 0 1 2.54 2.56v3.41a2.54 2.54 0 0 1-2.54 2.56H2.54A2.55 2.55 0 0 1 0 5.97v-3.4A2.55 2.55 0 0 1 2.54 0Zm0 11.47h3.38a2.54 2.54 0 0 1 2.54 2.56v3.41A2.55 2.55 0 0 1 5.92 20H2.54A2.55 2.55 0 0 1 0 17.44v-3.4a2.55 2.55 0 0 1 2.54-2.57ZM17.46 0h-3.38a2.55 2.55 0 0 0-2.54 2.56v3.41a2.54 2.54 0 0 0 2.54 2.56h3.38c1.4 0 2.54-1.14 2.54-2.56v-3.4A2.55 2.55 0 0 0 17.46 0Zm-3.38 11.47h3.38c1.4 0 2.54 1.14 2.54 2.56v3.41A2.55 2.55 0 0 1 17.46 20h-3.38a2.55 2.55 0 0 1-2.54-2.56v-3.4a2.54 2.54 0 0 1 2.54-2.57Z" fill="#005ED2"/>
+                                    </svg>
+                                    <span>Каталог продукции</span>
+                                </div>
+                                <ul class="menu-row__menu-list">
+                                    <li class="menu-row__menu-item">
+                                        <div class="menu-row__menu-item_click">
+                                            <span>
+                                                О компании
+                                            </span>
+                                            <svg class="menu-row__arrow" width="8" height="5" viewBox="0 0 8 5" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M7 1 4 3.85 1 1" stroke="inherit" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
+                                            </svg>
+                                        </div>
+                                        <ul class="menu-row__sub-menu-list">
+                                            <li class="menu-row__sub-menu-item">
+                                                <a href="/about.html">О компании</a>
+                                            </li>
+                                            <li class="menu-row__sub-menu-item">
+                                                <a href="#">Преимущества</a>
+                                            </li>
+                                            <li class="menu-row__sub-menu-item">
+                                                <a href="#">История</a>
+                                            </li>
+                                            <li class="menu-row__sub-menu-item">
+                                                <a href="/news.html">Новости</a>
+                                            </li>
+                                            <li class="menu-row__sub-menu-item">
+                                                <a href="#">Обучение</a>
+                                            </li>
+                                        </ul>
+                                    </li>
+                                    <li class="menu-row__menu-item">
+                                        <a href="#">Карьера</a>
+                                    </li>
+                                    <li class="menu-row__menu-item">
+                                        <a href="#">Нормативные документы</a>
+                                    </li>
+                                    <li class="menu-row__menu-item">
+                                        <a href="/contacts.html">Контакты</a>
+                                    </li>
+                                </ul>
+                            </div>
+                            <a href="#" class="menu-row__question">
+                                <svg class="menu-row__question-icon" width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" clip-rule="evenodd" d="M2 12.02a10 10 0 1 1 5.08 8.68c-.51-.31-.94-.54-1.49-.36l-2.02.6c-.51.16-.97-.24-.82-.78l.67-2.25c.11-.3.09-.64-.07-.9a10.59 10.59 0 0 1-1.35-5Zm8.7 0c0 .7.57 1.28 1.28 1.29a1.28 1.28 0 0 0 0-2.57c-.7 0-1.28.57-1.28 1.28Zm4.61 0c0 .7.57 1.29 1.28 1.29a1.28 1.28 0 0 0 0-2.57c-.71 0-1.28.57-1.28 1.29Zm-7.94 1.29c-.7 0-1.28-.58-1.28-1.29a1.28 1.28 0 1 1 2.56 0c0 .7-.57 1.28-1.28 1.29Z" fill="#fff"/></svg>
+                                <span>
+                                    Задать вопрос
+                                </span>
+                            </a>
+                            <div class="menu-row__mobile-contacts">
+                                <div class="menu-row__lang">
+                                    <span class="menu-row__lang-item menu-row__lang-item_active text text_service">RU</span>
+                                    <span class="menu-row__lang-item text text_service">EN</span>
+                                </div>
+                                <div class="menu-row__contacts">
+                                    <p class="menu-row__mail text text_service">
+                                        info@zmt-nsk.ru
+                                    </p>
+                                    <a href="#" class="menu-row__phone text text_service">+7 (383) 209-22-30</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </nav>
+                <div class="header__catalog-row catalog-row">
+                    <div class="container">
+                        <div class="catalog-row__body">
+                                <svg class="catalog-row__cross" width="18" height="18" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" clip-rule="evenodd" d="M2.5 1.09a1 1 0 0 0-1.4 1.42l6.48 6.43-6.48 6.42a1 1 0 0 0 1.4 1.42L9 10.35l6.5 6.44a1 1 0 0 0 1.4-1.42l-6.48-6.43L16.9 2.5a1 1 0 1 0-1.41-1.42l-6.5 6.44L2.5 1.09Z" fill="inherit"/></svg>
+                            <ul class="catalog-row__menu">
+                                <li class="catalog-row__menu-item">
+                                    <div class="catalog-row__menu-title ">
+                                        <p class="title">Одноразовые хирургические комплекты</p>
+                                        <svg class="catalog-row__arrow catalog-row__arrow_frst" width="8" height="5" viewBox="0 0 8 5" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M7 1 4 3.85 1 1" stroke="#182B3F" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"></path>
+                                        </svg>
+                                    </div>
+                                    <ul class="catalog-row__sub-menu catalog-row__sub-menu_frst">
+                                        <li class="catalog-row__sub-menu-item">
+                                            <a href="#">
+                                                Общая хирургия / Универсальные комплекты
+                                            </a>
+                                        </li>
+                                        <li class="catalog-row__sub-menu-item">
+                                            <a href="#">
+                                                Лапаротомия / Общая хирургия
+                                            </a>
+                                        </li>
+                                        <li class="catalog-row__sub-menu-item">
+                                            <a href="#">
+                                                Кардиохирургия
+                                            </a>
+                                        </li>
+                                        <li class="catalog-row__sub-menu-item">
+                                            <a href="#">
+                                                Ангиография
+                                            </a>
+                                        </li>
+                                        <li class="catalog-row__sub-menu-item">
+                                            <a href="#">
+                                                Нейрохирургия
+                                            </a>
+                                        </li>
+                                        <li class="catalog-row__sub-menu-item">
+                                            <a href="#">
+                                                Травматология и ортопедия
+                                            </a>
+                                        </li>
+                                        <li class="catalog-row__sub-menu-item">
+                                            <a href="#">
+                                                Пластическая и реконструктивная хирургия
+                                            </a>
+                                        </li>
+                                        <li class="catalog-row__sub-menu-item">
+                                            <a href="#">
+                                                Общая хирургия / Универсальные комплекты
+                                            </a>
+                                        </li>
+                                        <li class="catalog-row__sub-menu-item">
+                                            <a href="#">
+                                                Офтальмология
+                                            </a>
+                                        </li>
+                                        <li class="catalog-row__sub-menu-item">
+                                            <a href="#">
+                                                Акушерство и гинекология / Урология
+                                            </a>
+                                        </li>
+                                        <li class="catalog-row__sub-menu-item">
+                                            <a href="#">
+                                                Оториноларингология / Стоматология
+                                            </a>
+                                        </li>
+                                        <li class="catalog-row__sub-menu-item">
+                                            <a href="#">
+                                                Гемодиализ
+                                            </a>
+                                        </li><li class="catalog-row__sub-menu-item">
+                                            <a href="#">
+                                                Комплект защитный врача-инфекциониста
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li class="catalog-row__menu-item">
+                                    <div class="catalog-row__menu-title catalog-row__menu-title_scnd">
+                                        <p class="title">Защита персонала</p>
+                                        <svg class="catalog-row__arrow catalog-row__arrow_scnd" width="8" height="5" viewBox="0 0 8 5" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M7 1 4 3.85 1 1" stroke="#182B3F" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"></path>
+                                        </svg>
+                                    </div>
+                                    <ul class="catalog-row__sub-menu catalog-row__sub-menu_scnd">
+                                        <li class="catalog-row__sub-menu-item">
+                                            <a href="#">
+                                                Халаты хирургические 
+                                            </a>
+                                        </li>
+                                        <li class="catalog-row__sub-menu-item">
+                                            <a href="#">
+                                                Костюмы хирургические 
+                                            </a>
+                                        </li>
+                                        <li class="catalog-row__sub-menu-item">
+                                            <a href="#">
+                                                Бахилы хирургические 
+                                            </a>
+                                        </li>
+                                        <li class="catalog-row__sub-menu-item">
+                                            <a href="#">
+                                                Шапочки хирургические 
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li class="catalog-row__menu-item">
+                                    <div class="catalog-row__menu-title catalog-row__menu-title_thrd">
+                                        <p class="title">Хирургические простыни и принадлежности</p>
+                                        <svg class="catalog-row__arrow catalog-row__arrow_thrd" width="8" height="5" viewBox="0 0 8 5" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M7 1 4 3.85 1 1" stroke="#182B3F" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"></path>
+                                        </svg>
+                                    </div>
+                                    <ul class="catalog-row__sub-menu catalog-row__sub-menu_thrd">
+                                        <li class="catalog-row__sub-menu-item">
+                                            <a href="#">
+                                                Хирургические простыни и принадлежности
+                                            </a>
+                                        </li>
+                                        <li class="catalog-row__sub-menu-item">
+                                            <a href="#">
+                                                Принадлежности для операционной
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="header__mobile-menu-row mobile-menu-row">
+                    <div class="container">
+                        <div class="mobile-menu-row__body">
+                            <p class="mobile-menu-row__title">
+                                Меню
+                            </p>
+                            <svg class="mobile-menu-row__cross" width="17" height="17" viewBox="0 0 17 17" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M.76.59a2 2 0 0 1 2.83 0l12.31 12.3a2 2 0 0 1-2.83 2.84L.76 3.4A2 2 0 0 1 .76.6Z" fill="#005ED2"/><path d="M.59 15.73a2 2 0 0 1 0-2.83L12.89.59a2 2 0 1 1 2.84 2.82L3.4 15.73a2 2 0 0 1-2.82 0Z" fill="#005ED2"/></svg>
+                        </div>
+                    </div>
+                </div>
+                <div class="header__mobile-catalog-row mobile-catalog-row">
+                    <div class="container">
+                        <div class="mobile-catalog-row__body">
+                            <p class="mobile-catalog-row__title">
+                                Каталог
+                            </p>
+                            <svg class="mobile-catalog-row__cross" width="17" height="17" viewBox="0 0 17 17" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M.76.59a2 2 0 0 1 2.83 0l12.31 12.3a2 2 0 0 1-2.83 2.84L.76 3.4A2 2 0 0 1 .76.6Z" fill="#005ED2"/><path d="M.59 15.73a2 2 0 0 1 0-2.83L12.89.59a2 2 0 1 1 2.84 2.82L3.4 15.73a2 2 0 0 1-2.82 0Z" fill="#005ED2"/></svg>
+                        </div>
+                    </div>
+                </div>
+            </header>
+            <div class="content">
+                <svg class="bg-img bg-img_top" width="478" height="460" viewBox="0 0 478 460" fill="none" xmlns="http://www.w3.org/2000/svg"><g opacity=".4" filter="url(#a)"><path d="M270.31 380C340.83 380 398 322.73 398 252.1c0-70.65-57.17-127.91-127.69-127.91-70.51 0-127.68 57.26-127.68 127.9 0 70.64 57.17 127.91 127.69 127.91Z" fill="#0052D4" fill-opacity=".7"/><path d="M170 260a90 90 0 1 0 0-180 90 90 0 0 0 0 180Z" fill="#79BEFF"/></g><defs><filter id="a" x="0" y="0" width="478" height="460" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB"><feFlood flood-opacity="0" result="BackgroundImageFix"/><feBlend in="SourceGraphic" in2="BackgroundImageFix" result="shape"/><feGaussianBlur stdDeviation="40" result="effect1_foregroundBlur_51_707"/></filter></defs></svg>
+                <svg class="bg-img bg-img_center" width="478" height="460" viewBox="0 0 478 460" fill="none" xmlns="http://www.w3.org/2000/svg"><g opacity=".4" filter="url(#a)"><path d="M270.31 380C340.83 380 398 322.73 398 252.1c0-70.65-57.17-127.91-127.69-127.91-70.51 0-127.68 57.26-127.68 127.9 0 70.64 57.17 127.91 127.69 127.91Z" fill="#0052D4" fill-opacity=".7"/><path d="M170 260a90 90 0 1 0 0-180 90 90 0 0 0 0 180Z" fill="#79BEFF"/></g><defs><filter id="a" x="0" y="0" width="478" height="460" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB"><feFlood flood-opacity="0" result="BackgroundImageFix"/><feBlend in="SourceGraphic" in2="BackgroundImageFix" result="shape"/><feGaussianBlur stdDeviation="40" result="effect1_foregroundBlur_51_707"/></filter></defs></svg>
+                <svg class="bg-img bg-img_bottom" width="478" height="460" viewBox="0 0 478 460" fill="none" xmlns="http://www.w3.org/2000/svg"><g opacity=".4" filter="url(#a)"><path d="M270.31 380C340.83 380 398 322.73 398 252.1c0-70.65-57.17-127.91-127.69-127.91-70.51 0-127.68 57.26-127.68 127.9 0 70.64 57.17 127.91 127.69 127.91Z" fill="#0052D4" fill-opacity=".7"/><path d="M170 260a90 90 0 1 0 0-180 90 90 0 0 0 0 180Z" fill="#79BEFF"/></g><defs><filter id="a" x="0" y="0" width="478" height="460" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB"><feFlood flood-opacity="0" result="BackgroundImageFix"/><feBlend in="SourceGraphic" in2="BackgroundImageFix" result="shape"/><feGaussianBlur stdDeviation="40" result="effect1_foregroundBlur_51_707"/></filter></defs></svg>
+
+                <div class="popup-form">
+                    <div class="popup-form__body">
+                        <svg class="popup-form__cross" width="18" height="18" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" clip-rule="evenodd" d="M2.5 1.09a1 1 0 0 0-1.4 1.42l6.48 6.43-6.48 6.42a1 1 0 0 0 1.4 1.42L9 10.35l6.5 6.44a1 1 0 0 0 1.4-1.42l-6.48-6.43L16.9 2.5a1 1 0 1 0-1.41-1.42l-6.5 6.44L2.5 1.09Z" fill="inherit"/></svg>
+                        <div class="popup-form__title title">
+                            Задать вопрос
+                        </div>
+                        <div class="popup-form__text text_small">
+                            Для того чтобы получить прайс-лист или задать нам вопрос, отправьте сообщение и мы пришлем файл на вашу электронную почту.
+                        </div>
+                        <form action="#">
+                            <input name="email" class="popup-form__item" type="text" inputmode="email" placeholder="Email *" required>
+                            <input name="name" class="popup-form__item" type="text" inputmode="text" placeholder="ФИО *" required>
+                            <!-- <input> -->
+                            <select name="city" class="popup-form__item" placeholder="Город *" required>
+                                <option disabled selected>
+                                    Город
+                                </option>
+                                <option>
+                                    Новосибирск
+                                </option>
+                                <option>
+                                    Бердск
+                                </option>
+                                <option>
+                                    Искитим
+                                </option>
+                                <option>
+                                    Кемерово
+                                </option>
+                                <option>
+                                    Татарск
+                                </option>
+                            </select>
+                            <input name="company" class="popup-form__item" type="text" inputmode="text" placeholder="Компания *" required>
+                            <input name="company" class="popup-form__item" type="text" inputmode="number" placeholder="Телефон">
+                            <textarea name="message"  rows="5" placeholder="Сообщение" class="popup-form__message"></textarea>
+                            <button type="submit" class="text">
+                                <svg width="20" height="18" viewBox="0 0 20 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M7.84784 11.3839L7.517 16.2064C7.99034 16.2064 8.19534 15.9957 8.44118 15.7426L10.6604 13.5447L15.2588 17.0346C16.1022 17.5217 16.6964 17.2652 16.9239 16.2306L19.9423 1.57302L19.9431 1.57216C20.2106 0.280167 19.4923 -0.225058 18.6706 0.0918952L0.928504 7.13136C-0.282359 7.61845 -0.264025 8.31799 0.722666 8.63494L5.25861 10.0971L15.7947 3.26488C16.2905 2.92461 16.7414 3.11288 16.3705 3.45315L7.84784 11.3839Z" fill="white"/>
+                                    </svg>
+                                Отправить
+                            </button>
+                        </form>
+                    </div>
+                </div>
+
+                <section class="about-company">
+                    <div class="container">
+                        <div class="about-company__grid">
+                            <div class="about-company__text-column">
+                                <h1 class="about-company__title title">
+                                    О компании
+                                </h1>
+                                <p class="about-company__text text text_big">
+                                    Предприятие «Здравмедтех-Новосибирск» образовано в 2003 году и является действующим участником Ассоциации производителей «Здравмедтех» и саморегулируемой организации Ассоциации отечественных производителей медицинских изделий «Национальная медицинская индустрия».
+                                </p>
+                                <div class="about-company__buttons-row">
+                                    <a href="#" class="about-company__button about-company__video-button">
+                                        <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg"><g clip-path="url(#a)"><path d="M3.4.35C1.96-.47.8.2.8 1.87v12.26c0 1.67 1.16 2.34 2.6 1.52L14.13 9.5c1.44-.83 1.44-2.17 0-3L3.4.35Z" fill="inherit"/></g><defs><clipPath id="a"><path fill="inherit" d="M0 0h16v16H0z"/></clipPath></defs></svg>
+                                        <span>Видео о нас</span>
+                                    </a>
+                                    <a href="#" class="about-company__button about-company__career-button">
+                                        Карьера в компании
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="about-company__cards">
+                                <div class="about-company__item grey-card">
+                                    <div class="about-company__factoid factoid">
+                                        2003
+                                    </div>
+                                    <div class="about-company__item-text text">
+                                        год основания компании Здравмедтех-Новосибирск
+                                    </div>
+                                </div>
+                                <div class="about-company__item">
+                                    <div class="about-company__factoid factoid">
+                                        19
+                                    </div>
+                                    <div class="about-company__item-text text">
+                                        лет на рынке 
+                                    </div>
+                                </div>
+                                <div class="about-company__item">
+                                    <div class="about-company__factoid factoid">
+                                        4
+                                    </div>
+                                    <div class="about-company__item-text text">
+                                        производственные площадки
+                                    </div>
+                                </div>
+                                <div class="about-company__item">
+                                    <div class="about-company__factoid factoid">
+                                        1 000 +
+                                    </div>
+                                    <div class="about-company__item-text text">
+                                        партнёров закупают нашу продукцию
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <section class="production">
+                    <div class="container">
+                        <div class="production__grid">
+                            <div class="production__img about-img">
+                                <img src="img/about/production.png" alt="production">
+                            </div>
+                            <div class="production__text-row">
+                                <h2 class="production__title title">
+                                    Производство
+                                </h2>
+                                <p class="production__text text text_small">
+                                    Мы производим широкий ассортимент одноразовой медицинской одежды и белья, хирургических комплектов и средств индивидуальной защиты, используемых при оказании различных видов медицинской помощи и хирургических операций. 
+                                    <br><br>
+                                    Собственные производственные площади, квалификация и опыт персонала, применение собственных оригинальных разработок и технологий, современное оборудование и высокий уровень автоматизации производства позволяют нам осуществлять выпуск продукции, соответствующей требованиям национального стандарта РФ ГОСТ EN 13795 и международным стандартам качества. При производстве одноразовой медицинской одежды и белья используются современные многослойные нетканые материалы, адгезивные слои, операционные пленки.
+                                </p>
+                                <a href="#" class="production__button about-button">
+                                    <span>История компании</span>
+                                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M19.75 11.73h-15M13.7 5.7l6.05 6.03-6.05 6.02" stroke="inherit" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <section class="products">
+                    <div class="container">
+                        <div class="products__grid">
+                            <div class="products__text-row">
+                                <h2 class="products__title title">
+                                    Продукция
+                                </h2>
+                                <p class="products__text text text_small">
+                                    Продукция «Здравмедтех»® прошла апробацию в ведущих медицинских организациях России, зарегистрирована в Министерстве здравоохранения РФ. Все выпускаемые изделия медицинского назначения имеют регистрационные удостоверения и сертификаты качества. На предприятии внедрена и функционирует система менеджмента качества ISO 9001. Система менеджмента качества предприятия сертифицирована на соответствие ГОСТ Р ИСО 9001-2015 и ГОСТ ISO 13485-2017.
+                                </p>
+                                <a href="#" class="products__button about-button">
+                                    <span>Перейти в каталог</span>
+                                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M19.75 11.73h-15M13.7 5.7l6.05 6.03-6.05 6.02" stroke="inherit" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+                                </a>
+                            </div>
+                            <div class="products__img about-img">
+                                <img src="img/about/products.png" alt="production">
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <section class="about-advantages">
+                    <div class="container">
+                        <div class="about-advantages__grid">
+                            <div class="about-advantages__img about-img">
+                                <img src="img/about/advantages.png" alt="production">
+                            </div>
+                            <div class="about-advantages__text-row">
+                                <h2 class="about-advantages__title title">
+                                    Преимущества
+                                </h2>
+                                <p class="about-advantages__text text text_small">
+                                    Основным преимуществом использования одноразовой одежды в медицине является снижение риска занесения инфекции при хирургических вмешательствах и других видах медицинской помощи, для снижения частоты развития послеоперационных инфекционных раневых осложнений. Продукция «Здравмедтех»® обеспечивает эффективную защиту и комфортные условия работы медицинскому персоналу, защиту от контактов с биологическими жидкостями во время проведения операций, позволяет надежно ограничить операционное поле и обеспечить стерильность инвентаря.
+                                    <br><br>
+                                    Одноразовая одежда и белье стерилизуется радиационным способом на двух площадках Новосибирской области — ООО «СФМ — Фарм» (Биотехнопарк наукограда Кольцово) и Институт ядерной физики им. Г. И. Будкера СО РАН.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <section class="history">
+                    <div class="container">
+                        <h2 class="history__title title">
+                            История компании
+                        </h2>
+                        <div class="history__slider">
+                            <div class="history__slider-item">
+                                <div class="history__factoid factoid">
+                                    2021
+                                </div> 
+                                <div class="history__item-text text">
+                                    Открыто три новых производственных площадки, за год нам удалось открыть обособленные подразделения в городах Татарск, Чулым и Куйбышев. На основном производстве «Здравмедтех-Новосибирск» в городе Бердске площадью 5 500 кв. м сегодня работает 400 сотрудников, общая численность предприятия достигла 500 человек.
+                                </div>
+                            </div>
+                            <div class="history__slider-item">
+                                <div class="history__factoid factoid">
+                                    2021
+                                </div> 
+                                <div class="history__item-text text">
+                                    Мы вступили в национальный проект «Производительность труда». На нашем предприятии успешно реализуются мероприятия по оптимизации производства, внедрены инструменты и принципы бережливого производства.
+                                </div>
+                            </div>
+                            <div class="history__slider-item">
+                                <div class="history__factoid factoid">
+                                    2019
+                                </div> 
+                                <div class="history__item-text text">
+                                    Предприятие «Здравмедтех-Новосибирск» признано победителем Всероссийского конкурса «Лидеры российского бизнеса: динамика, ответственность, устойчивость» в номинации «Лучший проект по импортозамещению».
+                                </div>
+                            </div>
+                            <div class="history__slider-item">
+                                <div class="history__factoid factoid">
+                                    2003
+                                </div> 
+                                <div class="history__item-text text">
+                                    Предприятие «Здравмедтех-Новосибирск» образовано в 2003 году и является действующим участником Ассоциации производителей «Здравмедтех» и саморегулируемой организации Ассоциации отечественных производителей медицинских изделий «Национальная медицинская индустрия».
+                                </div>
+                            </div>
+                        </div>
+                        <div class="history__arrows-row">
+                        </div>
+                    </div>
+                </section>
+            </div>
+            <footer class="footer">
+                <div class="main-footer">
+                    <div class="container">
+                        <div class="main-footer__grid">
+                            <div class="main-footer__column">
+                                <a href="#">
+                                    <img src="img/logo.svg" alt="logo" class="main-footer__logo">
+                                </a>
+                            </div>
+                            <div class="main-footer__column">
+                                <div class="main-footer__title-row">
+                                    <img src="img/icon/location-icon.svg" alt="location" class="main-footer__icon">
+                                    <div class="main-footer__title title title_small">
+                                        Главный офис
+                                    </div>
+                                </div>
+                                <p class="main-footer__text text text_service">
+                                    630091, г. Новосибирск,<br>ул. Советская, 64/1, 6 этаж
+                                </p>
+                                <a href="#" class="main-footer__link main-footer__link_mg text text_service">
+                                    +7 (383) 209-22-30
+                                </a>
+                                <a href="#" class="main-footer__link main-footer__link_mg text text_service">
+                                    info@zmt-nsk.ru
+                                </a>
+                                <a href="#" class="main-footer__link main-footer__link_mg text text_service">
+                                    Telegram
+                                </a>
+                            </div>
+                            <div class="main-footer__column">
+                                <div class="main-footer__title-row">
+                                    <img src="img/icon/location-icon.svg" alt="location" class="main-footer__icon">
+                                    <div class="main-footer__title title title_small">
+                                        Производство
+                                    </div>
+                                </div>
+                                <p class="main-footer__text text text_service">
+                                    г. Бердск, ул. Химзаводская 11/90 
+                                </p>
+                                <p class="main-footer__text text text_service">
+                                    +7 (383) 209 17 37
+                                </p>
+                                <p class="main-footer__text text text_service">
+                                    г. Татарск, пер. Комсомольский, 63 
+                                </p>
+                                <p class="main-footer__text text text_service">
+                                    +7 (383) 642-03-80
+                                </p>
+                                <p class="main-footer__text text text_service">
+                                    г. Чулым, ул. Октябрьская, 8
+                                </p>
+                                <p class="main-footer__text text text_service">
+                                    +7 913 393 74 70
+                                </p>
+                                <p class="main-footer__text text text_service">
+                                    г. Куйбышев, ул. Гоголя, 19а 
+                                </p>
+                                <p class="main-footer__text text text_service">
+                                    +7 913 944 00 08
+                                </p>
+                            </div>
+                            <div class="main-footer__column">
+                                <a href="#" class="main-footer__link text text_service">
+                                    Соглашение об обработке персональных данных
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="second-footer">
+                    <div class="container">
+                        <div class="second-footer__row">
+                            <p class="second-footer__text text text_service">
+                                © «Здравмедтех-Новосибирск», 2022 
+                            </p>
+                            <a href="https://www.eurostudio.ru/" class="second-footer__dev-info">
+                                <span class="second-footer__text text text_service">
+                                    Разработка сайта –
+                                </span>
+                                <span class="second-footer__link text text_service">
+                                    Евростудио
+                                </span>
+                                <img src="img/eurostudio-logo.svg" alt="Eurostudio" class="second-footer__dev-logo">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </footer>
+        </div>
+        <!-- Подключение скрипта для бургера -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+        <script src="js/burger.js"></script>
+        <!-- Подключение скрипта для галереи -->
+        <script src="js/slick.js"></script>
+        <script src="js/script.js"></script>
+        <script src="js/popup.js"></script>
+    </body>
+</html>
