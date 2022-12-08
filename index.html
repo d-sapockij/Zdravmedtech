@@ -17,7 +17,7 @@
                         <div class="main-row__body">
                             <div class="main-row__logo-group">
                                 <div class="main-row__logo">
-                                    <a href="/index.html">
+                                    <a href="./index.html">
                                         <img src="img/logo.svg" alt="logo" class="main-row__logo-img">
                                     </a>
                                 </div>  
@@ -67,7 +67,7 @@
                                         </div>
                                         <ul class="menu-row__sub-menu-list">
                                             <li class="menu-row__sub-menu-item">
-                                                <a href="/about.html">О компании</a>
+                                                <a href="./about.html">О компании</a>
                                             </li>
                                             <li class="menu-row__sub-menu-item">
                                                 <a href="#">Преимущества</a>
@@ -76,7 +76,7 @@
                                                 <a href="#">История</a>
                                             </li>
                                             <li class="menu-row__sub-menu-item">
-                                                <a href="/news.html">Новости</a>
+                                                <a href="./news.html">Новости</a>
                                             </li>
                                             <li class="menu-row__sub-menu-item">
                                                 <a href="#">Обучение</a>
@@ -90,7 +90,7 @@
                                         <a href="#">Нормативные документы</a>
                                     </li>
                                     <li class="menu-row__menu-item">
-                                        <a href="/contacts.html">Контакты</a>
+                                        <a href="./contacts.html">Контакты</a>
                                     </li>
                                 </ul>
                             </div>
@@ -270,6 +270,53 @@
                 <svg class="bg-img bg-img_top" width="478" height="460" viewBox="0 0 478 460" fill="none" xmlns="http://www.w3.org/2000/svg"><g opacity=".4" filter="url(#a)"><path d="M270.31 380C340.83 380 398 322.73 398 252.1c0-70.65-57.17-127.91-127.69-127.91-70.51 0-127.68 57.26-127.68 127.9 0 70.64 57.17 127.91 127.69 127.91Z" fill="#0052D4" fill-opacity=".7"/><path d="M170 260a90 90 0 1 0 0-180 90 90 0 0 0 0 180Z" fill="#79BEFF"/></g><defs><filter id="a" x="0" y="0" width="478" height="460" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB"><feFlood flood-opacity="0" result="BackgroundImageFix"/><feBlend in="SourceGraphic" in2="BackgroundImageFix" result="shape"/><feGaussianBlur stdDeviation="40" result="effect1_foregroundBlur_51_707"/></filter></defs></svg>
                 <svg class="bg-img bg-img_center" width="478" height="460" viewBox="0 0 478 460" fill="none" xmlns="http://www.w3.org/2000/svg"><g opacity=".4" filter="url(#a)"><path d="M270.31 380C340.83 380 398 322.73 398 252.1c0-70.65-57.17-127.91-127.69-127.91-70.51 0-127.68 57.26-127.68 127.9 0 70.64 57.17 127.91 127.69 127.91Z" fill="#0052D4" fill-opacity=".7"/><path d="M170 260a90 90 0 1 0 0-180 90 90 0 0 0 0 180Z" fill="#79BEFF"/></g><defs><filter id="a" x="0" y="0" width="478" height="460" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB"><feFlood flood-opacity="0" result="BackgroundImageFix"/><feBlend in="SourceGraphic" in2="BackgroundImageFix" result="shape"/><feGaussianBlur stdDeviation="40" result="effect1_foregroundBlur_51_707"/></filter></defs></svg>
                 <svg class="bg-img bg-img_bottom" width="478" height="460" viewBox="0 0 478 460" fill="none" xmlns="http://www.w3.org/2000/svg"><g opacity=".4" filter="url(#a)"><path d="M270.31 380C340.83 380 398 322.73 398 252.1c0-70.65-57.17-127.91-127.69-127.91-70.51 0-127.68 57.26-127.68 127.9 0 70.64 57.17 127.91 127.69 127.91Z" fill="#0052D4" fill-opacity=".7"/><path d="M170 260a90 90 0 1 0 0-180 90 90 0 0 0 0 180Z" fill="#79BEFF"/></g><defs><filter id="a" x="0" y="0" width="478" height="460" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB"><feFlood flood-opacity="0" result="BackgroundImageFix"/><feBlend in="SourceGraphic" in2="BackgroundImageFix" result="shape"/><feGaussianBlur stdDeviation="40" result="effect1_foregroundBlur_51_707"/></filter></defs></svg>
+                
+                <div class="popup-form">
+                    <div class="popup-form__body">
+                        <svg class="popup-form__cross" width="18" height="18" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" clip-rule="evenodd" d="M2.5 1.09a1 1 0 0 0-1.4 1.42l6.48 6.43-6.48 6.42a1 1 0 0 0 1.4 1.42L9 10.35l6.5 6.44a1 1 0 0 0 1.4-1.42l-6.48-6.43L16.9 2.5a1 1 0 1 0-1.41-1.42l-6.5 6.44L2.5 1.09Z" fill="inherit"/></svg>
+                        <div class="popup-form__title title">
+                            Задать вопрос
+                        </div>
+                        <div class="popup-form__text text_small">
+                            Для того чтобы получить прайс-лист или задать нам вопрос, отправьте сообщение и мы пришлем файл на вашу электронную почту.
+                        </div>
+                        <form action="#">
+                            <input name="email" class="popup-form__item" type="text" inputmode="email" placeholder="Email *" required>
+                            <input name="name" class="popup-form__item" type="text" inputmode="text" placeholder="ФИО *" required>
+                            <!-- <input> -->
+                            <select name="city" class="popup-form__item" placeholder="Город *" required>
+                                <option disabled selected>
+                                    Город
+                                </option>
+                                <option>
+                                    Новосибирск
+                                </option>
+                                <option>
+                                    Бердск
+                                </option>
+                                <option>
+                                    Искитим
+                                </option>
+                                <option>
+                                    Кемерово
+                                </option>
+                                <option>
+                                    Татарск
+                                </option>
+                            </select>
+                            <input name="company" class="popup-form__item" type="text" inputmode="text" placeholder="Компания *" required>
+                            <input name="company" class="popup-form__item" type="text" inputmode="number" placeholder="Телефон">
+                            <textarea name="message"  rows="5" placeholder="Сообщение" class="popup-form__message"></textarea>
+                            <button type="submit" class="text">
+                                <svg width="20" height="18" viewBox="0 0 20 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M7.84784 11.3839L7.517 16.2064C7.99034 16.2064 8.19534 15.9957 8.44118 15.7426L10.6604 13.5447L15.2588 17.0346C16.1022 17.5217 16.6964 17.2652 16.9239 16.2306L19.9423 1.57302L19.9431 1.57216C20.2106 0.280167 19.4923 -0.225058 18.6706 0.0918952L0.928504 7.13136C-0.282359 7.61845 -0.264025 8.31799 0.722666 8.63494L5.25861 10.0971L15.7947 3.26488C16.2905 2.92461 16.7414 3.11288 16.3705 3.45315L7.84784 11.3839Z" fill="white"/>
+                                    </svg>
+                                Отправить
+                            </button>
+                        </form>
+                    </div>
+                </div>
+                
                 <section class="boxes">
                     <div class="container">
                         <div class="boxes__cards">
